@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qavonio | Location & Map</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .subpage-hero { height: 40vh; display: flex; align-items: center; justify-content: center; position: relative; background: var(--bg-charcoal); border-bottom: 1px solid rgba(212, 175, 55, 0.1); padding-top: 80px;}
+        .subpage-title { font-size: 3rem; color: var(--gold-light); letter-spacing: 5px; text-transform: uppercase; }
+        .content-section { padding: 6rem 0; background: var(--bg-black); }
+        .info-box { background: rgba(18, 18, 18, 0.5); padding: 3rem; border: 1px solid rgba(212, 175, 55, 0.2); text-align: center; }
+        .info-icon { font-size: 2.5rem; color: var(--gold-primary); margin-bottom: 1.5rem; }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar scrolled">
+        <div class="nav-brand"><a href="index.html">Qavonio</a></div>
+        <div class="nav-links">
+            <a href="experience.html">Experience</a>
+            <a href="menu.html">Menu</a>
+            <a href="journey.html">The Journey</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <a href="reserve.html" class="nav-btn">Reserve</a>
+    </nav>
+
+    <!-- Header -->
+    <section class="subpage-hero">
+        <h1 class="subpage-title gs-reveal">Our Location</h1>
+    </section>
+
+    <!-- Main Content -->
+    <section class="content-section">
+        <div class="container">
+            <div class="experience-grid">
+                <div class="info-box gs-reveal">
+                    <i class="fas fa-map-marker-alt info-icon"></i>
+                    <h2 class="section-title" style="font-size: 2rem;">Qavonio Fine Dining</h2>
+                    <p class="section-desc">123 Luxury Boulevard<br>Action Area II, New Town<br>Kolkata, West Bengal 700156<br>India</p>
+                    <p class="section-desc mt-4" style="font-size: 0.9rem;">Complimentary Valet Parking available at the main entrance.</p>
+                </div>
+                <div class="experience-img-wrapper gs-reveal" style="height: 100%; min-height: 300px; display: flex; align-items: center; justify-content: center; border: 1px solid rgba(212, 175, 55, 0.2);">
+                    <p style="color: var(--text-secondary); font-family: var(--font-heading); font-style: italic; font-size: 1.5rem;">Interactive Map Interface</p>
+                </div>
+            </div>
+            <div class="text-center mt-5 gs-reveal">
+                <a href="index.html" class="btn-outline">Return to Home</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <div class="footer-brand">
+                <h2 style="font-size: 2rem; color: var(--gold-light);">Qavonio</h2>
+                <p style="color: var(--gold-dark); letter-spacing: 5px;">by QavoniX Studio</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
