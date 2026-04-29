@@ -785,3 +785,26 @@ section {
         padding: 0 1.5rem;
     }
 }
+
+/* ===== MOBILE MENU FIX ===== */
+@media (max-width: 768px) {
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;   /* hidden by default */
+    width: 70%;
+    height: 100vh;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 20px;
+    transition: 0.4s ease;
+    z-index: 999;
+  }
+
+  .nav-links.active {
+    right: 0;   /* visible when active */
+  }
+
+}
