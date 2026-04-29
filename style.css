@@ -786,7 +786,25 @@ section {
     }
 }
 
+/* ===== DESKTOP NAV FIX ===== */
+.nav-links {
+  position: static;
+  right: 0;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  background: transparent;
+  padding: 0;
+}
 @media (max-width: 768px) {
+
+  .menu-toggle {
+    display: block;
+    font-size: 28px;
+    color: #c9a96e;
+    cursor: pointer;
+    z-index: 1001;
+  }
 
   .nav-links {
     position: fixed;
@@ -805,5 +823,4 @@ section {
   .nav-links.active {
     right: 0;
   }
-
 }
