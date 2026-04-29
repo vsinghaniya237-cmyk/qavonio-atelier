@@ -786,16 +786,20 @@ section {
     }
 }
 
-/* ===== DESKTOP NAV FIX ===== */
+/* Desktop fix */
 .nav-links {
   position: static;
-  right: 0;
-  height: auto;
   display: flex;
   flex-direction: row;
   background: transparent;
-  padding: 0;
 }
+
+/* Hide hamburger in desktop */
+.menu-toggle {
+  display: none;
+}
+
+/* Mobile */
 @media (max-width: 768px) {
 
   .menu-toggle {
