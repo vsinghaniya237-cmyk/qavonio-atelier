@@ -828,3 +828,10 @@ section {
     right: 0;
   }
 }
+html {
+  scroll-padding-top: 100px;
+}
+
+section {
+  padding-top: 40px;
+}
