@@ -786,14 +786,13 @@ section {
     }
 }
 
-/* ===== MOBILE MENU FIX ===== */
 @media (max-width: 768px) {
 
   .nav-links {
     position: fixed;
     top: 0;
-    right: -100%;   /* hidden by default */
-    width: 70%;
+    right: -100%;
+    width: 75%;
     height: 100vh;
     background: black;
     display: flex;
@@ -804,21 +803,7 @@ section {
   }
 
   .nav-links.active {
-    right: 0;   /* visible when active */
+    right: 0;
   }
 
-}
-#navLinks.active {
-  right: 0 !important;
-  background: red !important;
-}
-#navLinks {
-  position: fixed;
-  top: 0;
-  right: -100%;
-  width: 75%;
-  height: 100vh;
-  background: black;
-  z-index: 9999;
-  transition: 0.4s;
 }
