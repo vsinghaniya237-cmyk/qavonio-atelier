@@ -808,3 +808,17 @@ section {
   }
 
 }
+#navLinks.active {
+  right: 0 !important;
+  background: red !important;
+}
+#navLinks {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 75%;
+  height: 100vh;
+  background: black;
+  z-index: 9999;
+  transition: 0.4s;
+}
